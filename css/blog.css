@@ -1,40 +1,31 @@
-@media screen and (max-width: 320px){	
+@media screen and (max-width: 640px){/*分辨率小于640px时**********************************/	
 	body{
 		background-color: rgb(224,224,224);
+		margin: 0px;
 	}
 	/*头部div的属性*/
 	#head{
 		z-index: 1;
 		position: relative;
-		width: 80%;
+		width: 98%;
 		height: 200px;
-		margin: 0 auto;
+		margin-left: 1px;
 		background-color: rgb(51,51,51);
 		border-top-right-radius: 10px;
 		border-top-left-radius: 10px;
 		color: white;
 		box-shadow:5px 5px 7px rgba(0,0,0,0.7) ;
 	}
-}
-@media screen and (max-width: 640px){	
-	body{
-		background-color: black;
+	#head_setting{
+		position: absolute;
+		top: 20px;
+		right: 20px;
 	}
-	/*头部div的属性*/
-	#head{
-		z-index: 1;
-		position: relative;
-		width: 80%;
-		height: 200px;
-		margin: 0 auto;
-		background-color: rgb(51,51,51);
-		border-top-right-radius: 10px;
-		border-top-left-radius: 10px;
-		color: white;
-		box-shadow:5px 5px 7px rgba(0,0,0,0.7) ;
+	#head_setting img{
+		height: 60px;
 	}
 }
-@media screen and (min-width: 640px){	
+@media screen and (min-width: 640px){/*分辨率大于640px时**********************************/	
 	body{
 		background-color: green;
 	}

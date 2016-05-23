@@ -16,14 +16,35 @@
 		color: white;
 		box-shadow:5px 5px 7px rgba(0,0,0,0.7) ;
 	}
-	#head_setting{
+	#head_setting{/*背景颜色设置*/
 		position: absolute;
 		top: 20px;
 		right: 20px;
-	}
-	#head_setting img{
 		height: 60px;
+		width: 60px;
+		overflow: hidden;
 	}
+	#head_setting img,#head_setting_color0,#head_setting_black{
+		position: absolute;
+		width: 60px;
+		border-radius: 10px;
+		text-align: center;
+		line-height: 40px;
+		font-size: 20px;
+		font-weight: bold;
+		font-family: "楷体";
+	}
+	#head_setting_color0{
+		top: 60px;
+		height: 40px;
+		background-color: rgb(224,224,224);
+		color: #000000;
+	}
+	#head_setting_black{
+		top: 100px;
+		height: 40px;
+		background-color: black;
+	}/*背景颜色设置结束*/
 }
 @media screen and (min-width: 640px){/*分辨率大于640px时**********************************/	
 	body{

@@ -3,34 +3,187 @@
 		background-color: rgb(224,224,224);
 		margin: 0px;
 	}
-	/*头部div的属性*/
-	#head{
+	/*头部*/
+	.head{/*头部div的属性*/
 		z-index: 1;
 		position: relative;
-		width: 98%;
-		height: 125px;
-		margin-left: 1px;
+		width: 98.5%;
+		height: 75px;
 		background-color: rgb(51,51,51);
 		border-top-right-radius: 10px;
-		border-top-left-radius: 10px;
 		color: white;
-		box-shadow:5px 5px 7px rgba(0,0,0,0.7) ;
 	}
-	#head_setting{/*设置*/
+	.head_setting{/*设置*/
 		position: absolute;
-		top: 10px;
-		right: 10px;
+		top: 8px;
+		right: 8px;
 	}
-	#head_setting_img{
-		height: 45px;
+	.head_setting_img{
+		height: 35px;
 	}/*设置结束*/
-	#head_logo{/*logo*/
+	.head_NameAndJob{/*名字和职位*/
 		position: absolute;
-		top: 12px;
+		left: 20%;
+		width: 275px;
+		font-weight: bolder;
+		font-family: "宋体";
+		top: 10px;
+	}
+	.head_NameAndJob_name{
+		position: absolute;
+		left: 5%;
+		font-size: 45px;
+	}
+	.head_NameAndJob_job{
+		position: absolute;
+		left: 55%;
+		top: 25px;
+		font-size: 20px;
+	}/*名字和职位---结束*/
+	.head_logo{/*logo*/
+		position: absolute;
+		top: 7px;
 		left: 10px;
 	}
-	#head_logo_img{
-		height: 100px;
+	.head_logo_img{
+		height: 60px;
 		border-radius: 10px;
 	}/*logo结束*/
-}
+	/*头部结束*/
+	/*体部*/
+	.box{/*体部设置*/
+		z-index: 10;
+		position: relative;
+		width: 98.5%;
+		height: 675px;
+		background-color: rgb(255,255,255);
+		border-bottom-right-radius: 10px;
+		color: black;		
+	}/*体部设置--结束*/
+	/*联系方式*/
+	.box_contact{
+		position: absolute;
+		left: 5%;
+		height: 150px;
+		width: 90%;
+		border-bottom: 1px solid rgb(51,51,51);
+	}
+	.box_contact_wechat{
+		position: absolute;
+		top: 5px;
+		height: 140px;
+	}
+	.box_contact_other{
+		position: absolute;
+		top: 25px;
+		left: 40%;
+		width: 200px;
+		font-weight: bold;
+		font-size: 20px;
+		text-align: center;
+	}
+	/*联系方式--结束*/
+	/*简历模块的属性*/
+	.box_resume{
+		position: absolute;
+		left: 5%;
+		width: 90%;
+		margin: 5px 3%;
+	}
+	.box_resume_big_circle0,.box_resume_big_VerticalLine,.box_resume_big_circle1,.box_resume_small_LevelLine{
+		background-color: rgb(51,51,51);
+		position: absolute;
+	}
+	.box_resume_big{
+		position: absolute;
+		height: 100%;
+	}
+	.box_resume_big_title0{
+		position: absolute;
+		color: rgb(51,51,51);
+		width: 150px;
+		font-weight: bold;
+		border: 1px solid red;
+		font-size: 15px;
+		font-family: "微软雅黑";
+		top: 3px;
+		left: 55px;
+	}
+	.box_resume_big_title1{
+		left: 55px;
+		top: 27px;
+		font-weight: bolder;
+		color: rgb(0,128,128);
+		position: absolute;
+	}
+	.box_resume_big_circle0{
+		height: 45px;
+		width: 45px;
+		border-radius: 50px;
+	}
+	.box_resume_big_circle1{
+		height: 20px;
+		width: 20px;
+		bottom: 0%;
+		left: 13px;
+		border-radius: 20px;
+	}
+	.box_resume_big_VerticalLine{
+		width: 6px;
+		border-radius: 10px;
+		left: 20px;
+		height: 98%;
+	}
+	.box_resume_small{
+		position: absolute;
+		width: 70%;
+		left: 6px;
+	}
+	.box_resume_small_title{
+		position: absolute;
+		color: white;
+		font-size: 20px;
+		top: 7px;
+		left: 50px;
+	}
+	.box_resume_small_text{
+		position: absolute;
+		top: 50px;
+		left: 60px;
+	}
+	.box_resume_small_circle{
+		background-color: rgb(0,128,128);
+		position: absolute;
+		height: 35px;
+		width: 35px;
+		border-radius: 30px;
+	}
+	.box_resume_small_LevelLine{
+		left: 3%;
+		top: 6px;
+		height: 25px;
+		width: 90%;
+		border-radius: 10px;
+	}
+	.box_resume_small_text_text{
+		color: rgb(0,128,128);
+		font-size: 17px;
+		font-weight: bold;
+	}
+	/*id部分*/
+	/****************************/
+	#experience_box_resume{
+		height: 350px;
+		top: 150px;
+	}
+	#experience_box_resume_small1{
+		top: 100px;
+	}
+	#experience_box_resume_small2{
+		top: 200px;
+	}
+	/****************************/
+	/*id部分---结束*/
+	/*简历模块属性-结束*/
+	/*体部结束*/
+}/*分辨率小于640px时--结束**********************************/

@@ -1,4 +1,4 @@
-@media screen and (max-width: 360px){/*分辨率小于360px时**********************************/	
+@media screen and (max-width: 480px){/*分辨率小于480px时**********************************/	
 	body{
 		background-color: rgb(224,224,224);
 		margin: 0px;
@@ -20,6 +20,33 @@
 		top: 8px;
 		right: 8px;
 		height: 35px;
+		transform: rotate("0deg");
+	}
+	.head_SettingBox_content_color{
+		list-style: none;
+	}
+	#head_SettingBox_content_color_none,#head_SettingBox_content_color_white{
+		margin-right: 30px;
+		float: left;
+		height: 30px;
+		width: 30px;
+		border-radius: 30px;
+	}
+	#head_SettingBox_content_color_none{
+		background-color: rgb(224,224,224);
+	}
+	#head_SettingBox_content_color_white{
+		background-color: white;
+	}
+	.head_SettingBox_content_color_title{
+		width: 80px;
+		float: left;
+		margin-right: 30px;
+		margin-top: 2px;
+		color:  rgb(51,51,51);
+		font-size: 20px;
+		font-weight: bold;
+		font-family: "微软雅黑";
 	}
 	.CaseBox{
 		position: absolute;
@@ -79,7 +106,12 @@
 		height: 30px;
 		background-color: rgba(51,51,51,0.5);
 	}
-	.navigation a:link,.navigation a:visited,.navigation_three_more{
+	.navigation_title{
+		position: absolute;
+		left: -75%;
+		width: 85%;
+	}
+	.navigation_title a:link,.navigation_title a:visited,.navigation_title_three_more{
 		text-decoration: none;
 		color: rgb(51,51,51);
 		font-family: "微软雅黑";
@@ -88,24 +120,19 @@
 	}
 	.navigation_bar{
 		position: absolute;
-		top: 2px;
 		left: 7px;
 		height: 25px;
 	}
-	.navigation_one{
+	.navigation_title_one{
 		position: absolute;
-		left:20%;
-		top: 2px;
 	}
-	.navigation_two{
+	.navigation_title_two{
 		position: absolute;
-		left:50%;
-		top: 2px;
+		left:37%;
 	}
-	.navigation_three{
+	.navigation_title_three{
 		position: absolute;
-		left:82%;
-		top: 2px;
+		left:75%;
 	}
 	/*导航条---结束*/
 	/*体部*/
@@ -130,6 +157,7 @@
 	}
 	.box_contact_wechat{
 		position: absolute;
+		right: 68%;
 		top: 5px;
 		height: 90px;
 		border-radius: 7px;
@@ -209,6 +237,7 @@
 	}
 	.box_resume_small_text{
 		position: absolute;
+		width: 100%;
 		top: 30px;
 		left: 30px;
 	}
@@ -228,21 +257,35 @@
 		border-radius: 10px;
 	}
 	.box_resume_small_text_title{
+		position: absolute;
+		width: 100%;
 		color: rgb(0,128,128);
 		font-size: 15px;
 		font-weight: bold;
 	}
+	.box_resume_small_text_content{
+		position: absolute;
+		top: 18px;
+		color: black;
+		font-weight: bold;
+		font-size: 10px;
+	}
+	.box_resume_small_text_content font,.box_resume_small_text_content a:visited,.box_resume_small_text_content a:link{
+		font-weight: bold;
+		font-size: 10px;
+		color: rgb(0,128,128);
+	}
 	/*id部分*/
 	/****************************/
 	#experience_box_resume{
-		height: 1000px;
+		height: 300px;
 		top: 100px;
 	}
 	#experience_box_resume_small1{
-		top: 50px;
+		top: 125px;
 	}
 	#experience_box_resume_small2{
-		top: 125px;
+		top: 50px;
 	}
 	/****************************/
 	/*id部分---结束*/

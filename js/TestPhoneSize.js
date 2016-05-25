@@ -1,0 +1,1 @@
+document.write("<h1>宽"+window.innerWidth+"<br />高"+window.innerHeight+"</div>");

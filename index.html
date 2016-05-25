@@ -6,6 +6,8 @@
 		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index_resume.css"/>
+		<link rel="stylesheet" type="text/css" href="css/share_HeadNavigationBox.css"/>
 	</head>
 	<body>
 		<div class="head">
@@ -47,14 +49,14 @@
 		<div class="navigation">
 			<img id="navigation_bar" class="navigation_bar" src="img/条形图表.png"/>
 			<div id="navigation_BarBox" class="CaseBox">
-				bbb
+				
 				<div id="navigation_BarBox_BackButtom" class="CaseBox_BackButtom">
 					<br /><br /><br /><br /><br />
 					点<br />击<br />这<br />里<br />返<br />回
 				</div>
 			</div>
 			<div id="navigation_title" class="navigation_title">
-				<a class="navigation_title_one" href="#">资源分享</a>
+				<a class="navigation_title_one" href="resource.html">资源分享</a>
 				<a class="navigation_title_two" href="TestPhoneSize.html">测定宽高</a>
 				<div class="navigation_title_three">
 					<span class="navigation_title_three_more">
@@ -84,7 +86,51 @@
 				</div>
 			</div>
 			<!--联系方式---结束-->
-			<!--简历框*******************************************************************-->
+			<!--简历框1*******************************************************************-->
+			<div class="box_resume" id="education_box_resume"><!--设置框的高度和位置-->
+				<div class="box_resume_big">
+					<div class="box_resume_big_circle0"></div>
+					<span class="box_resume_big_title0"><!--设置大标题0的文字-->
+						教育经历
+					</span>
+					<span class="box_resume_big_title1"><!--设置大标题1的文字-->
+						Education
+					</span>
+					<div class="box_resume_big_circle1"></div>
+					<div class="box_resume_big_VerticalLine"></div>
+				</div>
+				<div class="box_resume_small" id="education_box_resume_small2"><!--设置小标题的高度-->
+					<div class="box_resume_small_LevelLine"></div>
+					<span class="box_resume_small_title"><!--设置小标题的文字-->
+						2016：源酷创意科技有限公司
+					</span>
+					<div class="box_resume_small_text"><!--设置简历内容-->
+						<span class="box_resume_small_text_title">
+							实训
+						</span>
+						<span class="box_resume_small_text_content">
+							实训内容：了解<font>HTML5+CSS3</font>及<font>JavaScript</font><br />
+							在实训结束后获得<font>二等奖</font>（结训测试第二名）。<br />
+						</span>
+					</div>
+					<div class="box_resume_small_circle"></div>
+				</div>
+				<div class="box_resume_small" id="education_box_resume_small1"><!--设置小标题的高度(大于45px)-->
+					<div class="box_resume_small_LevelLine"></div>
+					<span class="box_resume_small_title"><!--设置小标题的文字-->
+						2015-至今：广东培正学院
+					</span>
+					<div class="box_resume_small_text"><!--设置简历内容-->
+						<span class="box_resume_small_text_title">
+							计算机科学与工程系（本科）
+						</span>
+					</div>
+					<div class="box_resume_small_circle"></div>
+				</div>
+
+			</div>
+			<!--简历框1---结束***************************************************************-->
+			<!--简历框2*******************************************************************-->
 			<div class="box_resume" id="experience_box_resume"><!--设置框的高度和位置-->
 				<div class="box_resume_big">
 					<div class="box_resume_big_circle0"></div>
@@ -100,20 +146,21 @@
 				<div class="box_resume_small" id="experience_box_resume_small1"><!--设置小标题的高度(大于45px)-->
 					<div class="box_resume_small_LevelLine"></div>
 					<span class="box_resume_small_title"><!--设置小标题的文字-->
-						2015：广东培正学院-网页设计大赛
+						2015：个人项目
 					</span>
 					<div class="box_resume_small_text"><!--设置简历内容-->
 						<span class="box_resume_small_text_title">
-							进入决赛
+							广东培正学院-网页设计大赛
 						</span>
 						<span class="box_resume_small_text_content">
-							基于<font>Dreamweaver CS6</font>开发的静态网页<br />
-							<a href="#">code</a>
+							成果：进入决赛<br />
+							使用<font>Dreamweaver CS6</font>开发的静态网页<br />
+							<a href="https://github.com/BruceChuang/document/blob/master/code/WebDesign/201551701060-%E8%AE%A1%E6%9C%BA%E7%B3%BB-%E5%BA%84%E5%BE%B7%E4%BC%9F-%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1%E5%A4%A7%E8%B5%9B.rar"><li class="box_resume_small_text_content_a_li">code</li></a>
 						</span>
 					</div>
 					<div class="box_resume_small_circle"></div>
 				</div>
-				<div class="box_resume_small" id="experience_box_resume_small2"><!--设置小标题的高度-->
+				<div class="box_resume_small" id="experience_box_resume_small3"><!--设置小标题的高度-->
 					<div class="box_resume_small_LevelLine"></div>
 					<span class="box_resume_small_title"><!--设置小标题的文字-->
 						2016-至今：湖畔团队技术部
@@ -122,12 +169,105 @@
 						<span class="box_resume_small_text_title">
 							前端开发
 						</span>
+						<span class="box_resume_small_text_content">
+							<a href="http://www.pz123.top/"><li class="box_resume_small_text_content_a_li">quote</li></a>
+						</span>
+					</div>
+					<div class="box_resume_small_circle"></div>
+				</div>
+				<div class="box_resume_small" id="experience_box_resume_small2"><!--设置小标题的高度(大于45px)-->
+					<div class="box_resume_small_LevelLine"></div>
+					<span class="box_resume_small_title"><!--设置小标题的文字-->
+						2016：个人项目
+					</span>
+					<div class="box_resume_small_text"><!--设置简历内容-->
+						<span class="box_resume_small_text_title">
+							图书借还信息登记程序
+						</span>
+						<span class="box_resume_small_text_content">
+							使用<font>C++</font>开发的控制台程序<br />
+							开发软件：<font>Microsoft Visual Studio 2008</font><br />
+							功能：可以对图书借还信息进行输入输出储<br />存等（主要针对学校图书馆）。<br />
+							<a href="https://github.com/BruceChuang/document/blob/master/code/ProgramDesign/图书馆借书登记程序(C%2B%2B).rar"><li class="box_resume_small_text_content_a_li">code</li></a>
+						</span>
 					</div>
 					<div class="box_resume_small_circle"></div>
 				</div>
 			</div>
-			<!--简历框---结束***************************************************************-->
+			<!--简历框2---结束***************************************************************-->
+			<!--简历框3*******************************************************************-->
+			<div class="box_resume" id="skills_box_resume"><!--设置框的高度和位置-->
+				<div class="box_resume_big">
+					<div class="box_resume_big_circle0"></div>
+					<span class="box_resume_big_title0"><!--设置大标题0的文字-->
+						技能
+					</span>
+					<span class="box_resume_big_title1"><!--设置大标题1的文字-->
+						Skills
+					</span>
+					<div class="box_resume_big_circle1"></div>
+					<div class="box_resume_big_VerticalLine"></div>
+				</div>
+				<div class="box_resume_small" id="skills_box_resume_small4"><!--设置小标题的高度-->
+					<div class="box_resume_small_LevelLine"></div>
+					<span class="box_resume_small_title"><!--设置小标题的文字-->
+						Web前端：JavaScript
+					</span>
+					<div class="box_resume_small_text"><!--设置简历内容-->
+						<span class="box_resume_small_text_NoTitleContent">
+							了解<font>JavaScript</font>。能够使用<font>JavaScript</font><br />
+							开发一般的<font>动态网站</font>
+						</span>
+					</div>
+					<div class="box_resume_small_circle"></div>
+				</div>
+				<div class="box_resume_small" id="skills_box_resume_small3"><!--设置小标题的高度-->
+					<div class="box_resume_small_LevelLine"></div>
+					<span class="box_resume_small_title"><!--设置小标题的文字-->
+						Web前端：HTML5+CSS3
+					</span>
+					<div class="box_resume_small_text"><!--设置简历内容-->
+						<span class="box_resume_small_text_NoTitleContent">
+							了解<font>HTML5+CSS3</font>。能够使用<font>HTML5</font><br />
+							和<font>CSS3</font>制作简单的<font>动画</font>以<br />
+							及<font>响应式网站</font>等。
+						</span>
+					</div>
+					<div class="box_resume_small_circle"></div>
+				</div>
+				<div class="box_resume_small" id="skills_box_resume_small2"><!--设置小标题的高度-->
+					<div class="box_resume_small_LevelLine"></div>
+					<span class="box_resume_small_title"><!--设置小标题的文字-->
+						软件开发：C++
+					</span>
+					<div class="box_resume_small_text"><!--设置简历内容-->
+						<span class="box_resume_small_text_NoTitleContent">
+							熟悉<font>C++</font>的基本语法。能够熟练使用<font>链表</font><br />
+							和<font>类</font>进行操作等。能够开发一些功能简<br />单的<font>控制台程序</font>。<br />
+							熟悉的开发工具：<br />
+							<font>Visual C++ 6.0</font><br />
+							<font>Microsoft Visual Studio 2008</font>
+						</span>
+					</div>
+					<div class="box_resume_small_circle"></div>
+				</div>
+				<div class="box_resume_small" id="skills_box_resume_small1"><!--设置小标题的高度-->
+					<div class="box_resume_small_LevelLine"></div>
+					<span class="box_resume_small_title"><!--设置小标题的文字-->
+						软件开发：Visual Basic
+					</span>
+					<div class="box_resume_small_text"><!--设置简历内容-->
+						<span class="box_resume_small_text_NoTitleContent">
+							了解<font>VB</font>的基本语法。能够开发一<br />
+							些简单的Windows程序。
+						</span>
+					</div>
+					<div class="box_resume_small_circle"></div>
+				</div>
+			</div>
+			<!--简历框1---结束***************************************************************-->
 		</div>
+		<script src="js/share_HeadNavigationBox.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>

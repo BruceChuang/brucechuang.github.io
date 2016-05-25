@@ -1,0 +1,200 @@
+/*<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">*/
+@media screen and (max-width: 480px){/*分辨率小于480px时**********************************/	
+	body{
+		background-color: rgb(224,224,224);
+		margin: 0px;
+	}
+	
+	/*左边栏*/
+	.CaseBox{
+		position: absolute;
+		top: 105px;
+		left: -100%;
+		z-index: 15;
+		height: 1000px;
+		width: 100%;
+		background-color: rgba(51,51,51,0.5);
+	}
+	/*左边栏---结束*/
+	
+	/*头部*/
+	.head{/*头部div的属性*/
+		z-index: 1;
+		position: fixed;
+		width: 100%;
+		height: 75px;
+		background-color: rgb(51,51,51);
+		border-top-right-radius: 10px;
+		border-top-left-radius: 10px;
+		color: white;
+	}
+	/*设置*/
+	.head_setting{
+		position: absolute;
+		top: 8px;
+		right: 8px;
+		height: 35px;
+		transform: rotate("0deg");
+	}
+	.head_SettingBox_content_color{
+		list-style: none;
+	}
+	#head_SettingBox_content_color_none,#head_SettingBox_content_color_white{
+		margin-right: 30px;
+		float: left;
+		height: 30px;
+		width: 30px;
+		border-radius: 30px;
+	}
+	#head_SettingBox_content_color_none{
+		background-color: rgb(224,224,224);
+	}
+	#head_SettingBox_content_color_white{
+		background-color: white;
+	}
+	.head_SettingBox_content_color_title{
+		width: 80px;
+		float: left;
+		margin-right: 30px;
+		margin-top: 2px;
+		color:  rgb(51,51,51);
+		font-size: 20px;
+		font-weight: bold;
+		font-family: "微软雅黑";
+	}
+	.CaseBox_BackButtom{
+		position: absolute;
+		top: 0;
+		right: 0px;
+		height: 100%;
+		width: 30px;
+		font-size: 25px;
+		color: rgb(51,51,51);
+		background-color: rgb(224,224,224);
+	}
+	/*设置结束*/
+	.head_logo{/*logo*/
+		position: absolute;
+		top: 7px;
+		left: 10px;
+	}
+	.head_logo_img{
+		height: 60px;
+		border-radius: 10px;
+	}/*logo结束*/
+	/*头部结束*/
+	
+	/*导航条*/
+	.navigation{
+		z-index: 2;
+		position: fixed;
+		width: 100%;
+		top: 75px;
+		height: 30px;
+		background-color: rgba(51,51,51,0.5);
+	}
+	.navigation_title{
+		position: absolute;
+		left: -75%;
+		width: 85%;
+	}
+	.navigation_title a:link,.navigation_title a:visited,.navigation_title_three_more{
+		text-decoration: none;
+		color: rgb(51,51,51);
+		font-family: "微软雅黑";
+		font-size: 17px;
+		font-weight: bold;
+	}
+	.navigation_bar{
+		position: absolute;
+		left: 7px;
+		height: 25px;
+	}
+	.navigation_title_one{
+		position: absolute;
+	}
+	.navigation_title_two{
+		position: absolute;
+		left:37%;
+	}
+	.navigation_title_three{
+		position: absolute;
+		left:75%;
+	}
+	/*导航条---结束*/
+	
+	/*体部*/
+	.box{/*体部设置*/
+		z-index: 0;
+		position: relative;
+		top: 105px;
+		left: 0;
+		width: 100%
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		color: black;		
+	}/*体部设置--结束*/
+	
+	
+	/*头部div******************************************************
+	 	<div class="head">
+			<!--logo-->
+			<div class="head_logo">
+				<a href="http://brucechuang.github.io/">
+					<img class="head_logo_img" src="img/logo.png"/>
+				</a>
+			</div>
+			<!--logo---结束-->
+			<!--标题--><!--需另外写（包括样式）！！！！！！！！！！-->
+			<div class="">
+			</div>
+			<!--标题---结束-->
+			<!--设置(功能欠缺！！！！！！！！！)-->
+			<img id="head_setting" class="head_setting" src="img/setting.png"/>
+			<div id="head_SettingBox" class="CaseBox">
+				<div class="head_SettingBox_content">
+					<ul class="head_SettingBox_content_color">
+						<li class="head_SettingBox_content_color_title">颜色设置</li>
+						<li id="head_SettingBox_content_color_none"></li>
+						<li id="head_SettingBox_content_color_white"></li>
+					</ul>
+				</div>
+				<div id="head_SettingBox_BackButtom" class="CaseBox_BackButtom">
+					<br /><br /><br /><br /><br />
+					点<br />击<br />这<br />里<br />返<br />回
+				</div>
+			</div>
+			<!--设置---结束-->
+		</div>
+	 头部div-结束*/
+	/*导航div*********************************************************
+		<!--导航条-->
+		<div class="navigation">
+			<img id="navigation_bar" class="navigation_bar" src="img/条形图表.png"/>
+			<div id="navigation_BarBox" class="CaseBox">
+				<!--导航内容，需填（包括样式）！！！！！！！！！！！！！-->
+				<div id="navigation_BarBox_BackButtom" class="CaseBox_BackButtom">
+					<br /><br /><br /><br /><br />
+					点<br />击<br />这<br />里<br />返<br />回
+				</div>
+			</div>
+			<div id="navigation_title" class="navigation_title">
+				<a class="navigation_title_one" href="resource.html">资源分享</a>
+				<a class="navigation_title_two" href="TestPhoneSize.html">测定宽高</a>
+				<div class="navigation_title_three">
+					<span class="navigation_title_three_more">
+						更多
+					</span>
+				</div>
+			</div>
+		</div>
+		<!--导航条---结束-->
+	导航div-结束*/
+	/*体部div*********************************************************
+		<!--体部-->
+		<div id="box" class="box">
+		<!--体部内容，需填（包括样式）！！！！！！！！！！！！！！！！！！！-->
+		</div>
+		<!--体部---结束-->
+	体部div--结束*/
+}/*分辨率小于640px时--结束**********************************/

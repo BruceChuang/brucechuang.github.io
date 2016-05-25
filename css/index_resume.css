@@ -144,7 +144,7 @@
 	/****************************/
 	/****************************/
 	#skills_box_resume{
-		height: 410px;
+		height: 480px;
 		top: 720px;
 	}
 	#skills_box_resume_small4{
@@ -158,6 +158,9 @@
 	}
 	#skills_box_resume_small1{
 		top: 320px;
+	}
+	#skills_box_resume_small0{
+		top: 390px;
 	}
 	/****************************/
 	/*id的属性-结束*/

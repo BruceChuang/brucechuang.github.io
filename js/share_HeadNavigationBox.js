@@ -32,6 +32,7 @@ $head_SettingBox_content_color_white.onclick=function(){
 }
 /*颜色设置事件---结束*/
 
+/*导航条*/
 /*点击条形图标事件*/
 var $navigation_bar=document.getElementById("navigation_bar");
 var $navigation_BarBox_BackButtom=document.getElementById("navigation_BarBox_BackButtom");
@@ -52,3 +53,16 @@ $navigation_BarBox_BackButtom.onclick=function(){
 	$navigation_title.style.left="-75%";
 }
 /*点击条形图标事件---结束*/
+/*点击“更多”事件*/
+var $navigation_title_three_more=document.getElementById("navigation_title_three_more");
+$navigation_title_three_more.onclick=function(){
+	var $navigation_title_three=document.getElementById("navigation_title_three");
+	$navigation_title_three.style.transition="height 0.3s ease";
+	if ($navigation_title_three.style.height<"25px") {
+		$navigation_title_three.style.height="52px";
+	} else{
+		$navigation_title_three.style.height="22px";
+	}
+}
+/*点击“更多”事件---结束*/
+/*导航条---结束*/

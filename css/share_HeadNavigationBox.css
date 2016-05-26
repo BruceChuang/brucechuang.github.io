@@ -7,6 +7,7 @@
 	
 	/*左边栏*/
 	.CaseBox{
+		z-index: 1;
 		position: absolute;
 		top: 105px;
 		left: -100%;
@@ -14,6 +15,7 @@
 		height: 1000px;
 		width: 100%;
 		background-color: rgba(51,51,51,0.5);
+		text-align: center;
 	}
 	/*左边栏---结束*/
 	
@@ -98,28 +100,47 @@
 		left: -75%;
 		width: 85%;
 	}
-	.navigation_title a:link,.navigation_title a:visited,.navigation_title_three_more{
+	.navigation_title a:link,.navigation_title a:visited,.navigation_title_three{
 		text-decoration: none;
-		color: rgb(51,51,51);
+		color:black;
+		box-shadow: 2px 2px 2px rgb(51,51,51);
 		font-family: "微软雅黑";
 		font-size: 17px;
-		font-weight: bold;
 	}
 	.navigation_bar{
 		position: absolute;
 		left: 7px;
 		height: 25px;
 	}
+	.CaseBox_contant{
+		width: 80%;
+	}
+	.CaseBox_contant li{
+		margin-top: 20px;
+		font-family: "微软雅黑";
+		font-size: 25px;
+	}
 	.navigation_title_one{
 		position: absolute;
 	}
 	.navigation_title_two{
 		position: absolute;
-		left:37%;
+		left:30%;
 	}
 	.navigation_title_three{
+		width: 75px;
+		height: 22px;
+		overflow: hidden;
+		text-align: center;
 		position: absolute;
-		left:75%;
+		left:60%;
+	}
+	.navigation_title_three a:link,.navigation_title_three a:visited{
+		text-decoration: underline;
+		box-shadow: none;
+	}
+	.navigation_title_last{
+		margin-top:5px;
 	}
 	/*导航条---结束*/
 	
@@ -129,7 +150,7 @@
 		position: relative;
 		top: 105px;
 		left: 0;
-		width: 100%
+		width: 100%;
 		border-bottom-right-radius: 10px;
 		border-bottom-left-radius: 10px;
 		color: black;		

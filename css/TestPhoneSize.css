@@ -22,5 +22,54 @@
 	}
 	/****************************/
 	/*简历的属性-结束*/
-
+		/*测试匡的属性*/
+	.box_test{
+		position: absolute;
+		left:10%;
+		top: 160px;
+		height: 200px;
+		width: 80%;
+		border: 1px solid red;
+		font-size: 25px;
+		text-align: center;
+	}
+	/*测试匡的属性---结束*/
 }/*分辨率小于640px时--结束**********************************/
+@media screen and (min-width: 481px){/*分辨率大于480px时**********************************/	
+/*网页标题*/
+.head_WebTitle{
+	position: absolute;
+	top: 15px;
+	left: 24%;
+	width: 290px;
+	font-size: 30px;
+	font-weight: bolder;
+	font-family: "宋体";
+}
+/*网页标题---结束*/
+
+	/*简历的属性*/
+	/****************************/
+	#recommendation_box_resume{
+		height: 190px;
+		top: 10px;
+	}
+	#recommendation_box_resume_small1{
+		top: 70px;
+	}
+	/****************************/
+	/*简历的属性-结束*/
+	/*测试匡的属性*/
+	.box_test{
+		position: absolute;
+		left: 55%;
+		top: 20px;
+		height: 200px;
+		width: 350px;
+		border: 1px solid red;
+		font-size: 25px;
+		text-align: center;
+	}
+	/*测试匡的属性---结束*/
+}/*分辨率小于640px时--结束**********************************/
+

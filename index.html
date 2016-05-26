@@ -10,7 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="css/share_HeadNavigationBox.css"/>
 	</head>
 	<body>
-		<div class="head">
+		<div id="head" class="head">
 			<!--logo-->
 			<div class="head_logo">
 				<a href="http://brucechuang.github.io/">
@@ -28,8 +28,22 @@
 				</span>
 			</div>
 			<!--名字和职位---结束-->
+			<!--pc有，移动设备端无-->
+			<div id="head_navigation" class="head_navigation">
+				<a class="head_navigation_one" href="blog.html">个人博文</a>
+				<a class="head_navigation_two" href="resource.html">资源分享</a>
+				<div id="head_navigation_three" class="head_navigation_three">
+					<div id="head_navigation_three_more" class="head_navigation_three_more">
+						<a href="#">更多</a>
+					</div>
+					<div class="head_navigation_last">
+						<a href="TestPhoneSize.html">宽高测定</a>
+					</div>
+				</div>
+			</div>
+			<!--pc有，移动设备端无---结束-->
 			<!--设置(功能欠缺！！！！！！！！！)-->
-			<img id="head_setting" class="head_setting" src="img/setting.png"/>
+			<a href="#"><img id="head_setting" class="head_setting" src="img/setting.png" title="设置"/></a>
 			<div id="head_SettingBox" class="CaseBox">
 				<div class="head_SettingBox_content">
 					<ul class="head_SettingBox_content_color">
@@ -46,8 +60,8 @@
 			<!--设置---结束-->
 		</div>
 		<!--导航条-->
-		<div class="navigation">
-			<img id="navigation_bar" class="navigation_bar" src="img/条形图表.png"/>
+		<div id="navigation" class="navigation">
+			<a href="#"><img id="navigation_bar" class="navigation_bar" src="img/条形图表.png"/></a>
 			<div id="navigation_BarBox" class="CaseBox">
 				<ul class="CaseBox_contant">
 					<li id="CaseBox_contant_ul_li1">教育经历</li>
@@ -59,18 +73,20 @@
 					点<br />击<br />这<br />里<br />返<br />回
 				</div>
 			</div>
+			<!--移动设备有，pc端无-->
 			<div id="navigation_title" class="navigation_title">
 				<a class="navigation_title_one" href="blog.html">个人博文</a>
 				<a class="navigation_title_two" href="resource.html">资源分享</a>
 				<div id="navigation_title_three" class="navigation_title_three">
 					<div id="navigation_title_three_more" class="navigation_title_three_more">
-						更多
+						<a href="#">更多</a>
 					</div>
 					<div class="navigation_title_last">
 						<a href="TestPhoneSize.html">宽高测定</a>
 					</div>
 				</div>
 			</div>
+			<!--移动设备有，pc端无---结束-->
 		</div>
 		<!--导航条---结束-->
 		<div id="box" class="box">

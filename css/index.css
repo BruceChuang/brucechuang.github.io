@@ -99,4 +99,108 @@
 	}
 	/****************************/
 	/*简历的属性-结束*/
-}/*分辨率小于640px时--结束**********************************/
+}/*分辨率小于480px时--结束**********************************/
+
+
+@media screen and (min-width: 481px){/*分辨率大于480px时**********************************/	
+	/*头部*/
+	.head_NameAndJob{/*名字和职位*/
+		position: absolute;
+		left: 18%;
+		width: 275px;
+		font-weight: bolder;
+		font-family: "宋体";
+	}
+	.head_NameAndJob_name{
+		position: absolute;
+		top: 3px;
+		left: 16%;
+		font-size: 45px;
+	}
+	.head_NameAndJob_job{
+		position: absolute;
+		left: 24%;
+		top: 50px;
+		font-size: 17px;
+	}/*名字和职位---结束*/
+	/*头部---结束*/
+	
+	/*体部*/
+	/*联系方式*/
+	.box_contact{
+		position: absolute;
+		left: 8%;
+		height: 150px;
+		width: 40%;
+		border-bottom: 1px solid rgb(51,51,51);
+	}
+	.box_contact_wechat{
+		position: absolute;
+		right: 68%;
+		top: 5px;
+		height: 130px;
+		border-radius: 7px;
+	}
+	.box_contact_other{
+		position: absolute;
+		top: 9px;
+		left: 30%;
+		width: 300px;
+		font-weight: bold;
+		font-size: 25px;
+		text-align: center;
+	}
+	/*联系方式--结束*/
+	/*体部结束*/
+	
+	/*简历的属性*/
+	/****************************/
+	#education_box_resume{
+		height: 380px;
+		top: 200px;
+	}
+	#education_box_resume_small2{
+		top: 70px;
+	}
+	#education_box_resume_small1{
+		top: 230px;
+	}
+	/****************************/
+	/****************************/
+	#experience_box_resume{
+		height: 630px;
+		top: 610px;
+	}
+	#experience_box_resume_small3{
+		top: 70px;
+	}
+	#experience_box_resume_small2{
+		top: 200px;
+	}
+	#experience_box_resume_small1{
+		top: 420px;
+	}
+	/****************************/
+	/****************************/
+	#skills_box_resume{
+		height: 780px;
+		left: 50%;
+	}
+	#skills_box_resume_small4{
+		top: 70px;
+	}
+	#skills_box_resume_small3{
+		top: 180px;
+	}
+	#skills_box_resume_small2{
+		top: 310px;
+	}
+	#skills_box_resume_small1{
+		top: 510px;
+	}
+	#skills_box_resume_small0{
+		top: 620px;
+	}
+	/****************************/
+	/*简历的属性-结束*/
+}/*分辨率大于480px时--结束**********************************/

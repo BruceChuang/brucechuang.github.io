@@ -178,3 +178,119 @@
 			<!--简历框1---结束***************************************************************-->
 	简历div模板--结束*/
 }/*分辨率小于640px时--结束**********************************/
+
+@media screen and (min-width: 481px){/*分辨率大于480px时**********************************/	
+	/*简历模块的属性*/
+	.box_resume{
+		position: absolute;
+		left: 5%;
+		width: 40%;
+		margin: 5px 3%;
+	}
+	.box_resume_big_circle0,.box_resume_big_VerticalLine,.box_resume_big_circle1,.box_resume_small_LevelLine{
+		background-color: rgb(51,51,51);
+		position: absolute;
+	}
+	.box_resume_big{
+		position: absolute;
+		height: 100%;
+	}
+	.box_resume_big_title0{
+		position: absolute;
+		color: rgb(51,51,51);
+		width: 200px;
+		font-weight: bold;
+		font-size: 25px;
+		font-family: "微软雅黑";
+		top: 0px;
+		left: 65px;
+	}
+	.box_resume_big_title1{
+		left: 65px;
+		top: 25px;
+		font-size: 25px;
+		font-weight: bolder;
+		color: rgb(0,128,128);
+		position: absolute;
+	}
+	.box_resume_big_circle0{
+		height: 55px;
+		width: 55px;
+		border-radius: 35px;
+	}
+	.box_resume_big_circle1{
+		height: 23px;
+		width: 23px;
+		bottom: 0%;
+		left: 16px;
+		border-radius: 16px;
+	}
+	.box_resume_big_VerticalLine{
+		width: 10px;
+		border-radius: 10px;
+		left: 23px;
+		height: 100%;
+	}
+	.box_resume_small{
+		position: absolute;
+		width: 95%;
+		left: 6px;
+	}
+	.box_resume_small_title{
+		position: absolute;
+		color: white;
+		font-size: 20px;
+		top: 8px;
+		left: 50px;
+	}
+	.box_resume_small_text{
+		position: absolute;
+		width: 100%;
+		top: 50px;
+		left: 50px;
+	}
+	.box_resume_small_circle{
+		background-color: rgb(0,128,128);
+		position: absolute;
+		left: 4px;
+		height: 35px;
+		width: 35px;
+		border-radius: 25px;
+	}
+	.box_resume_small_LevelLine{
+		left: 3%;
+		top: 7px;
+		height: 25px;
+		width: 100%;
+		border-radius: 10px;
+	}
+	.box_resume_small_text_title{
+		position: absolute;
+		width: 100%;
+		color: rgb(0,128,128);
+		font-size: 30px;
+		font-weight: bold;
+	}
+	.box_resume_small_text_content{
+		position: absolute;
+		top: 40px;
+		color: black;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.box_resume_small_text_NoTitleContent{
+		position: absolute;
+		color: black;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.box_resume_small_text_content font,.box_resume_small_text_content a:visited,.box_resume_small_text_content a:link,.box_resume_small_text_NoTitleContent font,.box_resume_small_text_NoTitleContent a:visited,.box_resume_small_text_NoTitleContent a:link{
+		font-weight: bold;
+		font-size: 20px;
+		color: rgb(0,128,128);
+	}
+	.box_resume_small_text_content_a_li{
+		float: left;
+	}
+	/*简历模块---结束*/	
+}/*分辨率大于480px时--结束**********************************/

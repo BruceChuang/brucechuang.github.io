@@ -1,3 +1,4 @@
+/*分辨率小于480px时**********************************/	
 var $box=document.getElementById("box");/*定义box的变量*/
 $box.style.transition="left 0.5s ease";/*设置box的transition样式*/
 
@@ -66,3 +67,4 @@ $navigation_title_three_more.onclick=function(){
 }
 /*点击“更多”事件---结束*/
 /*导航条---结束*/
+/*分辨率小于480px时---结束**********************************/	

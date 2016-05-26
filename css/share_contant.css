@@ -111,23 +111,10 @@
 	.box_resume_small_text_content_a_li{
 		float: left;
 	}
-	/*简历模块---结束*/
+	/*简历模块---结束*/	
 	
-	
-	/*id的属性*/
-	/****************************/
-	#education_box_resume{
-		height: 220px;
-		top: 100px;
-	}
-	#education_box_resume_small2{
-		top: 50px;
-	}
-	#education_box_resume_small1{
-		top: 145px;
-	}
-	/****************************/
-	/****************************/
+	/*id模版*/
+	/***************************
 	#experience_box_resume{
 		height: 380px;
 		top: 330px;
@@ -141,30 +128,8 @@
 	#experience_box_resume_small1{
 		top: 260px;
 	}
-	/****************************/
-	/****************************/
-	#skills_box_resume{
-		height: 480px;
-		top: 720px;
-	}
-	#skills_box_resume_small4{
-		top: 50px;
-	}
-	#skills_box_resume_small3{
-		top: 120px;
-	}
-	#skills_box_resume_small2{
-		top: 200px;
-	}
-	#skills_box_resume_small1{
-		top: 320px;
-	}
-	#skills_box_resume_small0{
-		top: 390px;
-	}
-	/****************************/
-	/*id的属性-结束*/
-	
+	***************************/
+	/*id模版---结束*/
 	
 	/*简历div模板*********************************************************
 			<!--简历框1*******************************************************************-->

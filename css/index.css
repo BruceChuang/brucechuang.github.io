@@ -48,4 +48,55 @@
 	}
 	/*联系方式--结束*/
 	/*体部结束*/
+	
+	/*简历的属性*/
+	/****************************/
+	#education_box_resume{
+		height: 220px;
+		top: 100px;
+	}
+	#education_box_resume_small2{
+		top: 50px;
+	}
+	#education_box_resume_small1{
+		top: 145px;
+	}
+	/****************************/
+	/****************************/
+	#experience_box_resume{
+		height: 380px;
+		top: 330px;
+	}
+	#experience_box_resume_small3{
+		top: 50px;
+	}
+	#experience_box_resume_small2{
+		top: 130px;
+	}
+	#experience_box_resume_small1{
+		top: 260px;
+	}
+	/****************************/
+	/****************************/
+	#skills_box_resume{
+		height: 480px;
+		top: 720px;
+	}
+	#skills_box_resume_small4{
+		top: 50px;
+	}
+	#skills_box_resume_small3{
+		top: 120px;
+	}
+	#skills_box_resume_small2{
+		top: 200px;
+	}
+	#skills_box_resume_small1{
+		top: 320px;
+	}
+	#skills_box_resume_small0{
+		top: 390px;
+	}
+	/****************************/
+	/*简历的属性-结束*/
 }/*分辨率小于640px时--结束**********************************/

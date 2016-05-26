@@ -1,0 +1,26 @@
+@media screen and (max-width: 480px){/*分辨率小于480px时**********************************/	
+/*网页标题*/
+.head_WebTitle{
+	position: absolute;
+	top: 15px;
+	left: 25%;
+	width: 290px;
+	font-size: 30px;
+	font-weight: bolder;
+	font-family: "宋体";
+}
+/*网页标题---结束*/
+
+	/*简历的属性*/
+	/****************************/
+	#recommendation_box_resume{
+		height: 130px;
+		top: 10px;
+	}
+	#recommendation_box_resume_small1{
+		top: 50px;
+	}
+	/****************************/
+	/*简历的属性-结束*/
+
+}/*分辨率小于640px时--结束**********************************/

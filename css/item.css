@@ -1,0 +1,37 @@
+@media screen and (max-width: 480px){/*分辨率小于480px时**********************************/	
+	/*网页标题*/
+	.head_WebTitle{
+		position: absolute;
+		top: 15px;
+		left: 25%;
+		width: 290px;
+		font-size: 30px;
+		font-weight: bolder;
+		font-family: "宋体";
+	}
+
+/*网页标题---结束*/
+}/*分辨率小于640px时--结束**********************************/
+@media screen and (min-width: 481px){/*分辨率大于480px时**********************************/	
+	/*网页标题*/
+	.head_WebTitle{
+		position: absolute;
+		top: 15px;
+		left: 24%;
+		width: 290px;
+		font-size: 30px;
+		font-weight: bolder;
+		font-family: "宋体";
+	}
+	/*网页标题---结束*/
+	.box_contant{
+		position: absolute;
+		top: 70px;
+		left: 100px;
+		font-size: 30px;
+	}
+	.box_contant a:link{
+		text-decoration: none;
+	}
+}/*分辨率小于640px时--结束**********************************/
+

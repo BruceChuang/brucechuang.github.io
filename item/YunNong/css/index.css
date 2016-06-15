@@ -1,0 +1,20 @@
+body{
+	margin:0px;/*整个网页的内边距为0*/
+	/*border:1px solid red;*/
+}
+a:link,a:visited{
+	color: black;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 970px){
+	.body{
+		z-index: 1;
+		position: relative;
+		top: 70px;
+		width: 100%;
+	}
+	.body_background{
+		width: 100%;
+	}
+}

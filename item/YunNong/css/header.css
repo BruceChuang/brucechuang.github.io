@@ -1,0 +1,121 @@
+.SingleRow{
+	line-height: 70px;/*设置单行文字垂直居中*/
+}
+/*设置双行文字垂直居中*/
+.DoubleRow{
+	line-height: 80px;
+}
+.AlignWord{
+	display: inline-block;
+	line-height:13px;
+}
+
+@media screen and (min-width: 970px){
+	.header{
+		z-index: 10;
+		height: 70px;
+		width: 100%;
+		background-color: rgba(51,153,204,0.5);
+		position: fixed;
+		top: 0px;
+		left: 0px;/*不设置的话左边会有一条缝*/
+	}
+	
+	.header_logo{
+		height: 100%;
+		float: left;
+	}
+	
+	.header_navigation1,.header_navigation2,.header_navigation3_ul{
+		position: absolute;/*设置相对于父div的定位，使三个ul都显示在同一行*/
+		margin: 0px;/*消去ul与div的上边距*/
+		list-style: none;
+		height:70px;
+		padding: 0px;/*消去li与ul的左边距*/
+	}
+	.header_navigation1{
+		font-size: 22px;
+		font-family: Arial, Helvetica, sans-serif, "宋体";
+		left: 150px;
+		width: 300px;/*一个li的宽度是100*/
+	}
+	
+	.header_search{
+		position: absolute;
+		top: 25px;/*使搜索框垂直居中*/
+		right: 310px;
+		height: 20px;
+	}
+	/*.header_search_button{
+		position: absolute;
+		right: 176px;
+		height: 26px;
+		width: 30px;
+		font-size: 10px;
+		background-color:rgba(255,255,255,0.7);
+		outline: none;
+		border-radius: 30px;
+	}*/
+	.header_search_text{
+		position: absolute;
+		background-color: transparent;
+		border: 0px;
+		border-bottom: 1px solid rgb(100,100,100);
+		right: 25px;
+		width: 150px;
+		height: 23px;
+		outline: none;
+	}
+	.header_search_icon{
+		position: absolute;
+		right: 0px;/*不设置的话会偏右*/
+		width: 20px;
+		height: 20px;
+		background-size: cover;
+		background-image: url(../img/search.png);
+	}
+	.header_search_icon:hover{
+		background-image: url(../img/search_hover.png);
+	}
+	
+	.header_navigation2{
+		right: 150px;
+		width: 160px;/*一个li的宽度是80*/
+	}
+	.header_navigation3{
+		position: absolute;
+		height: 70px;
+		width: 80px;/*一个li的宽度是80*/
+		overflow: hidden;/*隐藏剩下的3个li*/
+		right: 70px;
+		transition: height 0.3s ease,background-color 0.3s ease;
+	}
+	.header_navigation3:hover{
+		background-color: rgba(51,153,204,0.5);/*下拉框需要设置粉红色*/
+		height: 210px;
+	}
+	.header_navigation1 li,.header_navigation2 li,.header_navigation3_ul li{
+		font-weight:bold;
+		text-align: center;
+		height: 100%;
+		transition: background-color 0.3s linear;/*设置颜色淡出淡如效果*/
+	}
+	.header_navigation1 li,.header_navigation2 li{
+		float: left;/*设置li不换行*/
+	}
+	.header_navigation2 li,.header_navigation3_ul li{
+		width:80px;
+	}
+	.header_navigation1 li{
+		width: 100px;
+	}
+	.header_navigation1 li:hover,.header_navigation2 li:hover,.header_navigation3_ul li:hover{/*鼠标时上去时加深颜色*/
+		background-color:rgb(51,153,204);
+	}
+	.header_user{
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		width: 30px;
+	}
+}

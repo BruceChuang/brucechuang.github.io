@@ -128,6 +128,8 @@ body{
 	}
 	.navigation_title_two{
 		position: absolute;
+		width: 75px;
+		text-align: center;
 		left:30%;
 	}
 	.navigation_title_three{

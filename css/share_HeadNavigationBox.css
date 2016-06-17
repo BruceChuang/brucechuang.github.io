@@ -20,6 +20,7 @@ body{
 	
 	/*头部*/
 	.head{/*头部div的属性*/
+		visibility: hidden;/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 		z-index: 1;
 		position: fixed;
 		width: 100%;
@@ -87,6 +88,7 @@ body{
 	
 	/*导航条*/
 	.navigation{
+		visibility: hidden;/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 		z-index: 2;
 		position: fixed;
 		width: 100%;
@@ -151,6 +153,7 @@ body{
 	
 	/*体部*/
 	.box{/*体部设置*/
+		visibility: hidden;/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 		z-index: 0;
 		position: relative;
 		top: 105px;
@@ -246,6 +249,7 @@ body{
 	
 	/*头部*/
 	.head{/*头部div的属性*/
+		visibility: hidden;/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 		z-index: 1;
 		position: fixed;
 		width: 100%;
@@ -342,6 +346,7 @@ body{
 	
 	/*导航条*/
 	.navigation{
+		visibility: hidden;/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 		z-index: 2;
 		position: fixed;
 		width: 100%;
@@ -371,6 +376,7 @@ body{
 	
 	/*体部*/
 	.box{/*体部设置*/
+		visibility: hidden;/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 		z-index: 0;
 		position: relative;
 		top: 105px;

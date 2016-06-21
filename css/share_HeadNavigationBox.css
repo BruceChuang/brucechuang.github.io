@@ -1,6 +1,6 @@
 /*<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">*/
 body{
-	/*background-color: rgb(224,224,224);***！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！**/
+	background-color: rgb(224,224,224);
 	margin: 0px;
 }
 @media screen and (max-width: 480px){/*分辨率小于480px时**********************************/	
@@ -20,7 +20,6 @@ body{
 	
 	/*头部*/
 	.head{/*头部div的属性*/
-		visibility: hidden;/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 		z-index: 1;
 		position: fixed;
 		width: 100%;
@@ -88,7 +87,6 @@ body{
 	
 	/*导航条*/
 	.navigation{
-		visibility: hidden;/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 		z-index: 2;
 		position: fixed;
 		width: 100%;
@@ -153,7 +151,6 @@ body{
 	
 	/*体部*/
 	.box{/*体部设置*/
-		visibility: hidden;/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 		z-index: 0;
 		position: relative;
 		top: 105px;
@@ -249,7 +246,6 @@ body{
 	
 	/*头部*/
 	.head{/*头部div的属性*/
-		visibility: hidden;/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 		z-index: 1;
 		position: fixed;
 		width: 100%;
@@ -346,7 +342,6 @@ body{
 	
 	/*导航条*/
 	.navigation{
-		visibility: hidden;/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 		z-index: 2;
 		position: fixed;
 		width: 100%;
@@ -376,7 +371,6 @@ body{
 	
 	/*体部*/
 	.box{/*体部设置*/
-		visibility: hidden;/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 		z-index: 0;
 		position: relative;
 		top: 105px;

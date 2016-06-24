@@ -1,3 +1,6 @@
+a:link,a:visited{
+	text-decoration: none;
+}
 @media screen and (max-width: 480px){/*分辨率小于480px时**********************************/	
 	/*网页标题*/
 	.head_WebTitle{
@@ -12,14 +15,17 @@
 	.box{
 		position: absolute;
 	}
-	.box_contant{
+	.box_contant1{
 		position: absolute;
 		top: 10px;
 		left: 100px;
 		font-size: 30px;
 	}
-	.box_contant:link{
-		text-decoration: none;
+	.box_contant2{
+		position: absolute;
+		top: 40px;
+		left: 100px;
+		font-size: 30px;
 	}
 /*网页标题---结束*/
 }/*分辨率小于640px时--结束**********************************/
@@ -38,14 +44,17 @@
 	.box{
 		position: absolute;
 	}
-	.box_contant{
+	.box_contant1{
 		position: absolute;
 		top: 70px;
 		left: 100px;
 		font-size: 30px;
 	}
-	.box_contant:link{
-		text-decoration: none;
+	.box_contant2{
+		position: absolute;
+		top: 110px;
+		left: 100px;
+		font-size: 30px;
 	}
 }/*分辨率小于640px时--结束**********************************/
 

@@ -1,0 +1,334 @@
+body{
+	background-color: rgb(255,255,204);
+	margin: 0px;
+	font:12px/180% Arial, Helvetica, sans-serif, "新宋体";
+}
+a,img{
+	border:0;
+}
+a:link,a:visited{
+	text-decoration: none;
+	color: black;
+}
+.header{
+	z-index: 2;
+	position: fixed;
+	top: 0px;
+	height: 60px;
+	width: 100%;
+	background-color: rgba(255,204,204,0.9);
+}
+.header_logo{
+	position: absolute;
+	left: 50px;
+	top: 5px;
+	height: 50px;
+}
+
+.header_search{
+	position: absolute;
+	top: 20px;/*使搜索框垂直居中*/
+	right: 350px;
+	height: 20px;
+}
+.header_search_text{
+	z-index: 1;
+	position: absolute;
+	background-color: transparent;
+	border: 0px;
+	border-bottom: 1px solid rgb(100,100,100);
+	right: 25px;
+	width: 0px;
+	height: 23px;
+	outline: none;
+}
+.header_search_icon{
+	z-index: 2;
+	position: absolute;
+	right: 0px;/*不设置的话会偏右*/
+	width: 20px;
+	height: 20px;
+	background-size: cover;
+	background-image: url(../img/search_hover.png);
+}
+.header_search_icon:hover{
+	background-image: url(../img/search.png);
+}
+.header_nav1,.header_nav2{
+	position: absolute;
+	margin: 0px;
+	height: 100%;
+}
+.header_nav1{
+	left: 150px;
+	width: 360px;
+}
+.header_nav2{
+	right: 80px;
+	width: 270px;
+}
+.header_nav1 li,.header_nav2 li{
+	cursor: pointer;
+	width: 90px;
+	height: 100%;
+	text-align: center;
+	line-height: 60px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 18px;
+	background-color: rgba(255,51,102,0);
+	float: left;
+	list-style: none;
+	transition: background-color 0.3s ease;
+}
+.header_nav1 li:hover,.header_nav2 li:hover{
+	background-color: rgba(255,51,102,1);
+}
+.header_logon{
+	position: absolute;
+	right: 0px;
+	width: 80px;
+	height: 100%;
+}
+.header_logon_user{
+	position: absolute;
+	visibility: visible;
+	right: 20px;
+	top: 15px;
+	width: 30px;
+}
+.header_logon_choice{
+	opacity: 0;
+	height: 100%;
+	width:100%;
+	line-height: 60px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+.header_logon:hover .header_logon_choice{
+	opacity: 1;
+}
+.header_logon:hover .header_logon_user{
+	visibility: hidden;
+}
+
+.backTop{
+	opacity: 0;
+	cursor: pointer;
+	border: 1px solid bisque;
+	position: fixed;
+	top: 400px;
+	right: 10px;
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	background-image: url(../img/top.png);
+	transition: opacity 0.3s ease;
+}
+.backTop:hover{
+	background-image: url(../img/top1.png);
+}
+
+.body{
+	z-index: 1;
+	position: relative;
+	top: 60px;
+	left: 5%;
+	width: 90%;
+}
+
+.SeeMore{
+	height: 65px;
+	border: 1px solid red;
+	transition: background-color 0.5s ease,color 0.5s ease;
+}
+.SeeMore:hover{
+	background-color: rgba(255,51,102,1);
+	color: white;
+}
+.SeeMore h1{
+	width: 200px;
+	margin: 20px auto;
+}
+
+/*全部车型*/
+/*标题前的图标*/
+.body_allCar{
+	position: absolute;
+	left: 30px;
+	top: 600px;
+	width: 100%;
+}
+.body_allCar_title{
+	position: absolute;
+	width: 100%;
+	top: 0px;
+}
+.body_allCar_title_icon{
+	position: absolute;
+	left: 0px;
+	top: 5px;
+	width: 20px;
+	height: 30px;
+}
+.body_allCar_title_icon1,.body_allCar_title_icon2,.body_allCar_title_icon3{
+	height: 10px;
+	width: 20px;
+	float: left;
+}
+.body_allCar_title_icon1{
+	background-color: red;
+}
+.body_allCar_title_icon3{
+	background-color: blue;
+}
+.body_allCar_title span{
+	position: absolute;
+	left: 25px;
+	height: 40px;
+	width: 300px;
+	font-size: 25px;
+	line-height: 40px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
+.body_allCar_title_line{
+	position: absolute;
+	left: 135px;
+	width: 80%;
+	height: 25px;
+	border-bottom: 2px solid black;
+}
+.body_allCar_type1{
+	position: absolute;
+	top: 50px;
+	left: 3%;
+}
+.body_allCar_type2{
+	position: absolute;
+	top: 450px;
+	left: 3%;
+}
+.body_allCar_type3{
+	position: absolute;
+	top: 650px;
+	left: 3%;
+}
+.body_allCar_type1_title{
+	font-family: "微软雅黑";
+	font-size: 25px;
+}
+.body_allCar_type1_contant_ul li{
+	position: absolute;
+	list-style: none;
+}
+.body_allCar_type_contant_ul_li1{
+	left: 0px;
+}
+.body_allCar_type_contant_ul_li2{
+	left: 260px;
+}
+.body_allCar_type_contant_ul_li3{
+	left: 520px;
+}
+.body_allCar_type_contant_ul_li4{
+	left: 780px;
+}
+.body_allCar_type_contant_ul_li5{
+	top: 220px;
+	left: 0px;
+}
+.body_allCar_type_contant_ul_li6{
+	top: 220px;
+	left: 260px;
+}
+.body_allCar_type1_contant_ul div{
+	z-index: 2;
+	position: relative;
+	height: 150px;
+}
+.body_allCar_type_contant_ul_div:hover .body_allCar_type_contant_ul_span{
+	height: 30px;
+	width: 228px;
+	border: 1px solid rgba(200,200,200,0.9);
+}
+.body_allCar_type1_contant_ul img{
+	z-index: 0;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 150px;
+}
+.body_allCar_type1_contant_ul span{
+	z-index: 3;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	background-color: rgba(200,200,200,0.9);
+	width: 230px;
+	height: 0px;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	overflow: hidden;
+	transition: height 0.3s ease,background-color 0.3s ease;
+}
+.body_allCar_type_contant_ul_span:hover{
+	background-color: rgba(255,255,255,0.9);
+}
+#body_allCar_SeeMore{
+	position: absolute;
+	top: 1030px;
+	left: 7%;
+	width: 80%;
+}
+
+.body_buyCarHelp{
+	width: 100%;
+	position: absolute;
+	top: 1750px;
+}
+.body_buyCarHelp_title{
+	background-image: url(../img/buyCarHelp.jpg);
+	background-size: cover;
+	margin: 0px auto;
+	width: 1000px;
+	height: 190px;
+	border-radius: 20px;
+}
+
+
+/* detailed star */
+.detailed{
+	border-top:1px solid #f1f1f1;
+	overflow:Hidden;
+	zoom:1;
+	width: 80%;
+	height: 1500px;
+	margin: 0px auto;
+}
+.detailed .title_block{padding:25px 15px 10px 15px;background:url(/indedx/2014/images/reply_icon.gif) left bottom repeat-x;overflow:hidden;zoom:1;border-bottom:1px solid #efefef;}
+.detailed .title_block .title_list li{position:relative;line-height:30px;color:#535353;font-size:16px;font-family:微软雅黑;}
+.detailed .title_block .title_list li a{position:absolute;right:0px;bottom:0;color:#55a0e4;}
+/* detailed end */
+
+
+
+/*新页面内容修改这里*/
+.demo{
+	position: absolute;
+	left: 2%;
+	top: 0px;
+}
+/*图片轮播*/
+*{padding:0;margin:0;list-style-type:none;}
+
+
+
+
+.buttom{
+	position: absolute;
+	top: 3500px;
+	left: 30%;
+}

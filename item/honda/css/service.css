@@ -3,3 +3,52 @@
 	top: 3500px;
 	left: 30%;
 }
+.body h1{
+	margin:40px 0px 0px 10px;
+	
+}
+.body_service_type1 img,.body_service_type2 img{
+	cursor: pointer;
+}
+.body_service_type1{
+	width:600px ;
+	float: left;
+	margin:40px 10px;
+	position: absolute;
+}
+.body_service_type2{
+	width:600px ;
+	float: right;
+	margin: 40px 0px 0px 0px;
+	
+}
+.cccc{
+	position: absolute;
+	top: 450px;
+	width: 1200px;
+	height: 70px;
+}
+.CallUs1{
+	float: left;
+	height: 65px;
+	width:400px ;
+	border: 1px solid red;
+	transition: background-color 0.5s ease,color 0.5s ease;
+	margin-left:40px ;
+}
+.CallUs1:hover{
+	background-color: rgba(255,51,102,1);
+	color: white;
+}
+.CallUs2{
+	float: left;
+	height: 65px;
+	width:400px ;
+	border: 1px solid red;
+	transition: background-color 0.5s ease,color 0.5s ease;
+	margin-left: 200px;
+}
+.CallUs2:hover{
+	background-color: rgba(255,51,102,1);
+	color: white;
+}

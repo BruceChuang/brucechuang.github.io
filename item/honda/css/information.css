@@ -3,3 +3,19 @@
 	top: 3500px;
 	left: 30%;
 }
+.body_information_type1{
+	margin: 20px 0;
+}
+.body_information_type2 span{
+	width: 470px;
+	float: left;
+	font-size:14px ;
+	text-indent:2em;
+	position: absolute;
+	text-align:justify;
+}
+.body_information_type2 img{
+	float: right;
+	padding-left:5px;
+	position: relative;
+}

@@ -3,3 +3,22 @@
 	top: 3500px;
 	left: 30%;
 }
+
+.body_active_type1 p{
+	margin: 10px 0px 10px 20px;
+	font-size: 24px;
+}
+.body_active_type2{
+	border: 10px;
+	border-radius:5px ;
+	background-color: #544B46;
+	width:560px;
+	height: 5px;
+	margin-left:20px;
+	margin-top:5px ;
+	box-shadow: 3px 3px 1px #888888;
+}
+.body_active_type1_img{
+	margin:20px;
+
+}
